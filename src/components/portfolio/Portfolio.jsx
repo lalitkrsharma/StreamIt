@@ -9,7 +9,7 @@ const data = [
     {
       id:1,
       image:IMG1,
-      title: 'Human Pose Detector-OpenCV Project',
+      title: 'Pose & Face Detection project using Mediapipe & Opencv',
       github: 'https://github.com/lalitkrsharma/Human-Pose-Detector-Open-CV-.git',
       demo: IMG1
     },
