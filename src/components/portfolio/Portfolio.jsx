@@ -2,7 +2,8 @@ import React from 'react'
 import './portfolio.css'
 import {SiGithub} from 'react-icons/si'
 import {MdComputer} from 'react-icons/md'
-import IMG1 from '../../assets/bird.jpg'
+import IMG1 from '../../assets/openCV.png'
+import IMG2 from '../../assets/portfolio.jpg'
 
 const data = [
     {
@@ -10,15 +11,15 @@ const data = [
       image:IMG1,
       title: 'Human Pose Detector-OpenCV Project',
       github: 'https://github.com/lalitkrsharma/Human-Pose-Detector-Open-CV-.git',
-      demo: 'https://github.com/lalitkrsharma/Human-Pose-Detector-Open-CV-.git'
+      demo: IMG1
     },
 
     {
       id:2,
-      image:IMG1,
-      title: 'Human Pose Detector-OpenCV Project',
-      github: 'https://github.com/lalitkrsharma/Human-Pose-Detector-Open-CV-.git',
-      demo: 'https://github.com/lalitkrsharma/Human-Pose-Detector-Open-CV-.git'
+      image:IMG2,
+      title: 'Dynamic Portfolio Website using Javascript, CSS & HTML',
+      github: 'https://github.com/lalitkrsharma/portfolio.git',
+      demo: 'https://lalitkrsharma.github.io/portfolio/'
     }
 ]
 const Portfolio = () => {

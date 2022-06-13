@@ -108,6 +108,22 @@ const Experience = () => {
               </div>
             </article>
 
+            <article className='experience__details'>
+              <div>
+              <FiCheckCircle className='experience__details-icon'/>
+              <h4>Numpy</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+              <FiCheckCircle className='experience__details-icon'/>
+              <h4>Pandas</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
           </div> 
 
         </div>

@@ -16,28 +16,8 @@ const Services = () => {
           <ul className='services__list'>
             <li>
               <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
+              <p>Made this very portfolio site using Javascript, CSS & HTML.</p>
+            </li>                        
           </ul>
         </article>
         {/* End Of Web Dev ==========================================*/}
@@ -50,28 +30,8 @@ const Services = () => {
           <ul className='services__list'>
             <li>
               <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
-            <li>
-              <BsCheck2All className='services__list-icon' />
-              <p>Made this very portfolio site using Javascript.</p>
-            </li>
+              <p>Created a "Face & Pose Detection" tool using mediapipe & opencv</p>
+            </li>            
           </ul>
         </article>
     {/* End Of Software Dev ===================================================*/}
