@@ -17,7 +17,7 @@ const data = [
     {
       id:2,
       image:IMG2,
-      title: 'Dynamic Portfolio Website using Javascript, CSS & HTML',
+      title: 'Dynamic Portfolio Website using React, Javascript, CSS & HTML',
       github: 'https://github.com/lalitkrsharma/portfolio.git',
       demo: 'https://lalitkrsharma.github.io/portfolio/'
     }

@@ -16,7 +16,7 @@ const Services = () => {
           <ul className='services__list'>
             <li>
               <BsCheck2All className='services__list-icon' />
-              <p>Created a Dynamic Portfolio Website using Javascript, CSS & HTML.</p>
+              <p>Created a Dynamic Portfolio Website using React, Javascript, CSS & HTML.</p>
             </li>                        
           </ul>
         </article>
