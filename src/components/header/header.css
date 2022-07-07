@@ -29,6 +29,11 @@ header{
   position: absolute;
   left: 0;
   bottom: 2rem;
+  transition: all ease;
+}
+
+.header__socials:hover{
+  cursor: pointer;
 }
 
 .header__socials::after{

@@ -42,8 +42,9 @@ body{
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-size:cover;
-  background-image: url(../src/assets/bird.jpg);
+  background-image: url(../src/assets/r_bliss.gif);
+  background-size:100%;
+  background-blend-mode:hard-light;
 }
 
 /*==========General Style==============*/
@@ -60,9 +61,21 @@ h5  {
   font-weight: 500;
 }
 
+h1,h2,h3,h4,h5:hover{
+  cursor: default;
+}
+
 h1{
   font-size: 2.5rem;
+  transition: all .5s ease;
 }
+
+h1:hover{
+  color: #4db5ff;
+  transform: scale(1.2);
+  
+}
+
 
 section{
   margin-top: 8rem;  
@@ -108,6 +121,7 @@ a:hover{
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
+  transform: scale(1.04);
 
 }
 

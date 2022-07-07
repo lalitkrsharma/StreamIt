@@ -23,6 +23,7 @@
 .contact__option:hover{
   background: transparent;
   border-color: var(--color-primary-variant);
+  cursor: pointer;
 }
 
 .contact__option-icon{
@@ -45,16 +46,17 @@ form{
   gap: 1.2rem;
 }
 
+
+
 input, textarea{
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: transparent;
+  background: rgba(0,0,0,.5);
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
 }
-
 
 /*===========Media Queries(Medium Devices)============*/
 @media screen and (max-width:1024px) {
