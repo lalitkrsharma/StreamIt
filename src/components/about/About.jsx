@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div>
               <p>
-                Enthusiastic, Passionate, & Curious. I'm a B-Tech Fresher with these 3 qualities who
+                Enthusiastic, Passionate, & Curious. I'm a B-Tech Fresher with these 3 qualities who likes to code and create with some good music and a cup of coffee.
               </p>
 
               <a href="#contact" className="btn btn-primary">Reach Out</a>
