@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import {SiTwitter} from 'react-icons/si'
+import {SiLeetcode, SiTwitter} from 'react-icons/si'
 import {SiLinkedin} from 'react-icons/si'
 import {SiGithub} from 'react-icons/si'
 const Footer = () => {
@@ -19,6 +19,7 @@ const Footer = () => {
 
       <div className='footer__socials'>       
         <a href="https://twitter.com/lalitkrsharma_" target='_blank'><SiTwitter/></a>
+        <a href="https://leetcode.com/lalitkrsharma/" target='_blank'><SiLeetcode/></a>
         <a href="https://github.com/lalitkrsharma" target='_blank'><SiGithub/></a>
         <a href="https://linkedin.com/in/lalitkrsharma" target='_blank'><SiLinkedin/></a>
       </div>

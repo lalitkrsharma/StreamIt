@@ -1,6 +1,6 @@
 header{
   height: 130vh;  
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden; 
 }
 
@@ -9,6 +9,7 @@ header{
   height: 100%;
   position: relative;
 }
+
 
 /*===================CTA===============*/
 
@@ -33,7 +34,7 @@ header{
 }
 
 .header__socials:hover{
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 .header__socials::after{
@@ -61,7 +62,8 @@ header{
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  border-bottom-left-radius: 19rem;
+  border-top-right-radius: 19rem;
   overflow: hidden;
   padding: 4rem 1.5rem 1.5rem 1.5rem;
 }

@@ -16,6 +16,7 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Rahul Kumar Madheshiya',
+    profile: 'https://linkedin.com/in/rahul-kumar-maddheshiya-668184182/',
     review:  "I've worked alongside Lalit for close to six months now. In those six months, I've seen him not only excel at the core elements of his responsibilities - like leadership skills, communication skills, but also learn other tasks that extend well beyond the scope of his role, like programming, coding and even taking the opportunities of such responsibilities. Lalit has grown as quickly as our work or duties has, his willingness to learn and take on these responsibilities is something to be desired in any beginner or professional."
   },
 ]
@@ -34,12 +35,13 @@ const Testimonials = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}>
        {
-         data.map(({avatar, name, review}, index) => {
+         data.map(({avatar, name, profile, review}, index) => {
            return(
             <SwiperSlide key={index} className='testimonial'>
-            <div className="client__avatar">
+            <a href ={profile} target='blank'>
+              <div className="client__avatar">
               <img src={avatar} />
-            </div>
+              </div></a>
             <h5 className='client__name'>{name}</h5>
             <small className='client__review'>
              {review}

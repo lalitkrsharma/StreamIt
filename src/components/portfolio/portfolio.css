@@ -15,6 +15,10 @@
 .portfolio__item:hover{
   border-color: var(--color-primary-variant);
   background: transparent;
+  transform: scale(1.01);
+  box-shadow:  -10px 0 50px #f0f,        /* outer left magenta */
+                10px 0 50px #0ff;         /* outer right cyan */   
+    
 }
 
 .portfolio__item-image{

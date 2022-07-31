@@ -24,6 +24,8 @@
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: pointer;
+  box-shadow:  -10px 0 50px #f0f,        /* outer left magenta */
+                10px 0 50px #0ff;         /* outer right cyan */  
 }
 
 .contact__option-icon{

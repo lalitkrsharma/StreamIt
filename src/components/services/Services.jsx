@@ -30,11 +30,25 @@ const Services = () => {
           <ul className='services__list'>
             <li>
               <BsCheck2All className='services__list-icon' />
-              <p>Created a "Face & Pose Detection" tool using mediapipe & opencv</p>
+              <p>Created a "Face & Pose Detection" tool using Mediapipe & Opencv</p>
             </li>            
           </ul>
         </article>
     {/* End Of Software Dev ===================================================*/}
+
+        <article className='services'>
+          <div className='services__head'>
+            <h3>Game Development</h3>
+          </div>
+
+          <ul className='services__list'>
+            <li>
+              <BsCheck2All className='services__list-icon' />
+              <p>Created a Unity based platformer game with Enemy AI and score-tracking.</p>
+            </li>            
+          </ul>
+        </article>
+    {/* End Of Game Dev ===================================================*/}
       </div>
 
     </section>

@@ -3,7 +3,7 @@ import './portfolio.css'
 import {SiGithub} from 'react-icons/si'
 import {MdComputer} from 'react-icons/md'
 import IMG1 from '../../assets/openCV.png'
-import IMG2 from '../../assets/portfolio.jpg'
+import IMG2 from '../../assets/site.jpg'
 
 const data = [
     {
@@ -39,13 +39,13 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' target='_blank'>
+                  <a href={github} className='btn btn-primary' target='_blank'>
                     <div>
                       <SiGithub className='.portfolio__item-icon'/>
                     </div>
                     Github
                   </a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>
+                  <a href={demo} className='btn' target='_blank'>
                     <div>
                       <MdComputer className='.portfolio__item-icon'/>
                     </div>Live Demo</a>
