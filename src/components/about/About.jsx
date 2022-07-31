@@ -45,7 +45,11 @@ const About = () => {
           </div>
           <div>
               <p>
+<<<<<<< HEAD
                 Enthusiastic, Passionate, & Curious. I'm a B-Tech Fresher with these 3 qualities who likes to code with some good music and a cup of coffee. Learning to code have been one of the most liberating experiences of my life.
+=======
+                Enthusiastic, Passionate, & Curious. I'm a B-Tech Fresher with these 3 qualities who likes to code and create with some good music and a cup of coffee.
+>>>>>>> a2de7ffb6536fe4c07f48de45aa14175c355380a
               </p>
 
               <a href="#contact" className="btn btn-primary">Reach Out</a>
