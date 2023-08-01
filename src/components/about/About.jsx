@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div>
               <p>
-                Enthusiastic, Passionate, & Curious. I'm a B-Tech Fresher with these 3 qualities who likes to code with some good music and a cup of coffee. Learning to code have been one of the most liberating experiences of my life.
+              I'm a Software Developer who specializes in Machine Learning and Artificial Intelligence and I also happen to be one of the Top 100 XR Developers of India (2023) - supported by Meta's XR Open-Source Fellowship program. I'm skilled in multiple programming languages like Python, C++, C, C# & a few others. I've experience in Web Dev, Game Dev, Machine Learning & Generative AI. I'm a skilled communicator with great people skills, I believe in the power of community and especially Open-Source. I'm a trained professional and a proud Indian 🇮🇳.
               </p>
 
               <a href="#contact" className="btn btn-primary">Reach Out</a>

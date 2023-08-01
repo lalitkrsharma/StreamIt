@@ -15,7 +15,7 @@ const Header = () => {
           Lalit Kumar Sharma
         </h1>
         <h5 className='text-light'>
-          Software Development Engineer
+          Software Developer | Machine Learning Engineer | Game Developer
         </h5>
         <CTA />        
         <HeaderSocials />

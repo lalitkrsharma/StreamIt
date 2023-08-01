@@ -5,7 +5,23 @@ import {SiHtml5} from 'react-icons/si'
 import {SiCss3} from 'react-icons/si'
 import {SiJavascript} from 'react-icons/si'
 import {SiReact} from 'react-icons/si'
+import {SiOpencv} from 'react-icons/si'
+import {SiNumpy} from 'react-icons/si'
+import {SiPandas} from 'react-icons/si'
+import {SiCsharp} from 'react-icons/si'
+import {SiUnrealengine} from 'react-icons/si'
+import {SiEpicgames} from 'react-icons/si'
+import {SiBlender} from 'react-icons/si'
+import {SiTensorflow} from 'react-icons/si'
+import {SiScikitlearn} from 'react-icons/si'
+import {SiJupyter} from 'react-icons/si'
 import {FaNodeJs} from 'react-icons/fa'
+import {FaGit} from 'react-icons/fa'
+import {FaPython} from 'react-icons/fa'
+import {FaJava} from 'react-icons/fa'
+import {FaUnity} from 'react-icons/fa'
+import {AiFillCode} from 'react-icons/ai'
+import {FaGithubAlt} from 'react-icons/fa'
 
 
 
@@ -18,7 +34,7 @@ const Experience = () => {
       <div className="container experience__container">
 
         <div className="experience__webdev">
-          <h3>Web Development</h3>
+          <h3>Front-End Development Skills</h3>
           <div className='experience__content'>
 
             <article className='experience__details'>
@@ -66,19 +82,26 @@ const Experience = () => {
               </div>
             </article>
 
+            <article className='experience__details'>
+              <div>
+              <FaGit className='experience__details-icon'/>
+              <h4>Git</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
           </div> 
         </div>
-
-        {/* End Of WebDev */}
+      {/* End Of WebDev */}
 
         <div className='experience__softwaredev'>
 
-          <h3>Software Development</h3>
+          <h3>Programming & Coding Skills</h3>
           <div className='experience__content'>
 
             <article className='experience__details'>
               <div>
-                <FiCheckCircle className='experience__details-icon'/>
+                <FaPython className='experience__details-icon'/>
                 <h4>Python</h4>
                 <small className='text-light'>Experienced</small>
               </div>
@@ -86,7 +109,7 @@ const Experience = () => {
 
             <article className='experience__details'>
               <div>
-                <FiCheckCircle className='experience__details-icon'/>
+                <AiFillCode className='experience__details-icon'/>
                 <h4>C++</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
@@ -94,7 +117,7 @@ const Experience = () => {
 
             <article className='experience__details'>
               <div>
-                <FiCheckCircle className='experience__details-icon'/>
+                <FaJava className='experience__details-icon'/>
                 <h4>Java</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
@@ -102,7 +125,7 @@ const Experience = () => {
 
             <article className='experience__details'>
               <div>
-              <FiCheckCircle className='experience__details-icon'/>
+              <SiOpencv className='experience__details-icon'/>
               <h4>OpenCV</h4>
               <small className='text-light'>Intermediate</small>
               </div>
@@ -110,7 +133,24 @@ const Experience = () => {
 
             <article className='experience__details'>
               <div>
-              <FiCheckCircle className='experience__details-icon'/>
+              <FaGithubAlt className='experience__details-icon'/>
+              <h4>Github Co-Pilot</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+          </div> 
+
+        </div>
+      {/* End Of Software Developmemt */}
+
+      <div className='experience__softwaredev'>
+
+          <h3>Machine Learning & Data Science</h3>
+          <div className='experience__content'>
+
+          <article className='experience__details'>
+              <div>
+              <SiNumpy className='experience__details-icon'/>
               <h4>Numpy</h4>
               <small className='text-light'>Intermediate</small>
               </div>
@@ -118,8 +158,32 @@ const Experience = () => {
 
             <article className='experience__details'>
               <div>
-              <FiCheckCircle className='experience__details-icon'/>
+              <SiPandas className='experience__details-icon'/>
               <h4>Pandas</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+              <SiTensorflow className='experience__details-icon'/>
+              <h4>TensorFlow</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+              <SiScikitlearn className='experience__details-icon'/>
+              <h4>Scikit-Learn</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+              <SiJupyter className='experience__details-icon'/>
+              <h4>Jupyter NB</h4>
               <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -127,7 +191,58 @@ const Experience = () => {
           </div> 
 
         </div>
-      {/* End Of Software Developmemt */}
+      {/* End Of Machine Learning */}
+
+      <div className='experience__softwaredev'>
+
+          <h3>Game Development & 3D Skills</h3>
+          <div className='experience__content'>
+
+            <article className='experience__details'>
+              <div>
+                <SiCsharp className='experience__details-icon'/>
+                <h4>C#</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+                <FaUnity className='experience__details-icon'/>
+                <h4>Unity</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+                <SiUnrealengine className='experience__details-icon'/>
+                <h4>UE5</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+              <SiBlender className='experience__details-icon'/>
+              <h4>Blender</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+              <SiEpicgames className='experience__details-icon'/>
+              <h4>UEFN</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+          </div> 
+
+        </div>
+      {/* End Of Game Development */}
+      
       </div>
     </section>
   )
